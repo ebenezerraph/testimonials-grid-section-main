@@ -583,6 +583,10 @@ video {
   min-height: 100vh;
 }
 
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -594,10 +598,6 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
 }
 
 .grid-flow-row {
@@ -740,28 +740,14 @@ video {
     width: fit-content;
   }
 
-  .md\:min-w-max {
-    min-width: -moz-max-content;
-    min-width: max-content;
-  }
-
   .md\:min-w-fit {
     min-width: -moz-fit-content;
     min-width: fit-content;
   }
 
-  .md\:min-w-full {
-    min-width: 100%;
-  }
-
   .md\:max-w-max {
     max-width: -moz-max-content;
     max-width: max-content;
-  }
-
-  .md\:max-w-fit {
-    max-width: -moz-fit-content;
-    max-width: fit-content;
   }
 
   .md\:auto-cols-max {
